@@ -1,0 +1,3132 @@
+<tnz framecount="118" version="71.1">
+  <generator>
+    "OpenToonz 1.5"
+  </generator>
+  <properties>
+    <cameras>
+      <camera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </camera>
+      </cameras>
+    <outputs>
+      <output name="main">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "/home/uwaw/Downloads/.gif"
+        </path>
+        <bpp>
+          64 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          0 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          102 
+        </resquality>
+        <fieldprevalence>
+          2 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="gif">
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            <property name="Looping" type="bool" value="true"/>
+            <property name="Generate Palette" type="bool" value="true"/>
+            </formatProperties>
+          <formatProperties ext="mp4">
+            <property max="100" min="1" name="Quality" type="int" value="90"/>
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            </formatProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="Mac">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      <output name="preview">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs/.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="Mac">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      </outputs>
+    <cleanupParameters>
+      <cleanupCamera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </cleanupCamera>
+      <cleanupPalette>
+        <version>
+          71 0 
+        </version>
+        <styles>
+          <style>
+            color_0 3 255 255 255 0 
+          </style>
+          <style>
+            color_1 2002 0 0 0 255 0 0 0 255 0 50 70 10 
+          </style>
+          </styles>
+        <stylepages>
+          <page>
+            <name>
+              colors 
+            </name>
+            <indices>
+              0 1 
+            </indices>
+            </page>
+          </stylepages>
+        <shortcuts>
+          -1 0 1 -1 -1 -1 -1 -1 -1 -1 
+        </shortcuts>
+        </cleanupPalette>
+      <lineProcessing autoAdjust="0" mode="grey" sharpness="90.000000"/>
+      <despeckling value="2"/>
+      <aaValue value="70"/>
+      <closestField value="999.000000"/>
+      <fdg name=""/>
+      </cleanupParameters>
+    <scanParameters>
+      <paper fmt=""/>
+      </scanParameters>
+    <vectorizerParameters>
+      <version>
+        71 0 
+      </version>
+      <outline>
+        0 
+      </outline>
+      <visibilityBits>
+        -1 
+      </visibilityBits>
+      <Centerline>
+        <threshold>
+          8 
+        </threshold>
+        <accuracy>
+          9 
+        </accuracy>
+        <despeckling>
+          5 
+        </despeckling>
+        <maxThickness>
+          200 
+        </maxThickness>
+        <thicknessRatioFirst>
+          100 
+        </thicknessRatioFirst>
+        <thicknessRatioLast>
+          100 
+        </thicknessRatioLast>
+        <makeFrame>
+          0 
+        </makeFrame>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        <naaSource>
+          0 
+        </naaSource>
+        </Centerline>
+      <Outline>
+        <despeckling>
+          4 
+        </despeckling>
+        <accuracy>
+          8 
+        </accuracy>
+        <adherence>
+          50 
+        </adherence>
+        <angle>
+          45 
+        </angle>
+        <relative>
+          25 
+        </relative>
+        <maxColors>
+          50 
+        </maxColors>
+        <toneThreshold>
+          128 
+        </toneThreshold>
+        <transparentColor>
+          255 255 255 255 
+        </transparentColor>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        </Outline>
+      </vectorizerParameters>
+    <bgColor>
+      255 255 255 0 
+    </bgColor>
+    <markers>
+      6 0 
+    </markers>
+    <subsampling>
+      1 1 
+    </subsampling>
+    <fieldguide>
+      16 1.77778 
+    </fieldguide>
+    <noteColors>
+      255 235 140 255 255 160 120 255 255 180 190 255 135 205 250 255 145 240 145 255 130 255 210 255 150 245 255 255 
+    </noteColors>
+    </properties>
+  <levelSet>
+    <levels>
+      <level id='1'>
+        D 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/D.tlv"
+        </path>
+        
+      </level>
+      <level id='2'>
+        D_mesh 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/D..mesh"
+        </path>
+        
+      </level>
+      <childLevel id='3'>
+        <xsheet id='4'>
+          
+          <columns>
+            <levelColumn id='5'>
+              
+              <status>
+                0 
+              </status>
+              <cells>
+                <cell>
+                  0 108 <level id='1'/>0001 0 
+                </cell>
+                </cells>
+              <fx>
+                <Toonz_columnFx id='6'>
+                  
+                  <params>
+                    </params>
+                  <ports>
+                    </ports>
+                  <dagNodePos>
+                    25005 25005 
+                  </dagNodePos>
+                  <numberId>
+                    0 
+                  </numberId>
+                  <name>
+                    LevelColumn 
+                  </name>
+                  <fxId>
+                    "" 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </Toonz_columnFx>
+                
+              </fx>
+              
+            </levelColumn>
+            
+          </columns>
+          <pegbars>
+            <pegbar activeboth="yes" id="Camera1">
+              <parent handle="B" id="None" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              <camera>
+                <cameraSize>
+                  16 9 
+                </cameraSize>
+                <cameraRes>
+                  1920 1080 
+                </cameraRes>
+                <cameraXPrevalence>
+                  1 
+                </cameraXPrevalence>
+                <interestRect>
+                  0 0 -1 -1 
+                </interestRect>
+                </camera>
+              </pegbar>
+            <pegbar id="Table">
+              <parent handle="B" id="None" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              </pegbar>
+            <pegbar id="Col1">
+              <parent handle="B" id="Table" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              </pegbar>
+            <grid_dimension>
+              1 
+            </grid_dimension>
+            </pegbars>
+          <fxnodes>
+            <terminal>
+              <fxnode>
+                <Toonz_columnFx id='6'/>
+              </fxnode>
+              </terminal>
+            <xsheet>
+              <Toonz_xsheetFx id='7'>
+                
+                <params>
+                  </params>
+                <ports>
+                  </ports>
+                <numberId>
+                  0 
+                </numberId>
+                <name>
+                  Xsheet 
+                </name>
+                <fxId>
+                  "" 
+                </fxId>
+                <opened>
+                  0 
+                </opened>
+                
+              </Toonz_xsheetFx>
+              
+            </xsheet>
+            <output>
+              <Toonz_outputFx id='8'>
+                
+                <params>
+                  </params>
+                <ports>
+                  <source>
+                    <Toonz_xsheetFx id='7'/>
+                  </source>
+                  </ports>
+                <numberId>
+                  0 
+                </numberId>
+                <name>
+                  Output 
+                </name>
+                <fxId>
+                  "" 
+                </fxId>
+                <opened>
+                  0 
+                </opened>
+                
+              </Toonz_outputFx>
+              
+            </output>
+            <grid_dimension>
+              1 
+            </grid_dimension>
+            </fxnodes>
+          
+        </xsheet>
+        
+        <name>
+          sub 
+        </name>
+        
+      </childLevel>
+      <level id='9'>
+        ulat 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras/ulat.jpeg"
+        </path>
+        
+      </level>
+      <level id='10'>
+        E 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/E.tlv"
+        </path>
+        
+      </level>
+      <level id='11'>
+        E_mesh 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/E..mesh"
+        </path>
+        
+      </level>
+      <level id='12'>
+        A 
+        <info dpiType="image"/>
+        <path>
+          "+extras/A..tif"
+        </path>
+        
+      </level>
+      <level id='13'>
+        hutan 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras/hutan.jpeg"
+        </path>
+        
+      </level>
+      
+    </levels>
+    <folder name="Cast" type="default">
+      <levels>
+        <level id='9'/><childLevel id='3'/><level id='1'/><level id='10'/><level id='12'/><level id='2'/><level id='13'/><level id='11'/>
+      </levels>
+      </folder>
+    <folder name="Audio">
+      </folder>
+    </levelSet>
+  <xsheet>
+    <columns>
+      <levelColumn id='14'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 118 <level id='10'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='15'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 25005 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <meshColumn id='16'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 118 <level id='11'/>0001 0 
+          </cell>
+          </cells>
+        
+      </meshColumn>
+      
+    </columns>
+    <pegbars>
+      <pegbar activeboth="yes" id="Camera1">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 2.95931 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.125928 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24484 25526.8 
+        </nodePos>
+        <camera>
+          <cameraSize>
+            16 9 
+          </cameraSize>
+          <cameraRes>
+            1920 1080 
+          </cameraRes>
+          <cameraXPrevalence>
+            1 
+          </cameraXPrevalence>
+          <interestRect>
+            0 0 -1 -1 
+          </interestRect>
+          </camera>
+        </pegbar>
+      <pegbar id="Table">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 2.94817 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.0172777 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24476 25476 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col1">
+        <parent handle="B" id="Col2" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25500 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <name>
+          Col1_mesh 
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 12.2894 
+            </L>
+            <L>
+              <prev>
+                -6.394 
+              </prev>
+              117 -6.394 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.938569 
+            </L>
+            <L>
+              <prev>
+                -1.11455 
+              </prev>
+              117 -1.11455 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <plasticSD>
+          <VertexDeforms>
+            <Name>
+              Root 
+            </Name>
+            <Hook>
+              1 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __1"
+            </Name>
+            <Hook>
+              2 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -2.30501 
+                    </prev>
+                    11 -2.30501 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -2.30501 
+                    </prev>
+                    35 -2.30501 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -2.30501 
+                    </prev>
+                    59 -2.30501 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -2.30501 
+                    </prev>
+                    83 -2.30501 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -2.30501 
+                    </prev>
+                    107 -2.30501 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.338 
+                    </prev>
+                    11 -11.338 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.338 
+                    </prev>
+                    35 -11.338 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.338 
+                    </prev>
+                    59 -11.338 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.338 
+                    </prev>
+                    83 -11.338 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.338 
+                    </prev>
+                    107 -11.338 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __2"
+            </Name>
+            <Hook>
+              3 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.80474 
+                    </prev>
+                    11 -1.80474 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.80474 
+                    </prev>
+                    35 -1.80474 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.80474 
+                    </prev>
+                    59 -1.80474 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.80474 
+                    </prev>
+                    83 -1.80474 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.80474 
+                    </prev>
+                    107 -1.80474 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -9.81552 
+                    </prev>
+                    11 -9.81552 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -9.81552 
+                    </prev>
+                    35 -9.81552 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -9.81552 
+                    </prev>
+                    59 -9.81552 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -9.81552 
+                    </prev>
+                    83 -9.81552 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -9.81552 
+                    </prev>
+                    107 -9.81552 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __3"
+            </Name>
+            <Hook>
+              4 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -6.78873 
+                    </prev>
+                    11 -6.78873 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -6.78873 
+                    </prev>
+                    35 -6.78873 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -6.78873 
+                    </prev>
+                    59 -6.78873 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -6.78873 
+                    </prev>
+                    83 -6.78873 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -6.78873 
+                    </prev>
+                    107 -6.78873 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.6096 
+                    </prev>
+                    11 -17.6096 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.6096 
+                    </prev>
+                    35 -17.6096 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.6096 
+                    </prev>
+                    59 -17.6096 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.6096 
+                    </prev>
+                    83 -17.6096 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.6096 
+                    </prev>
+                    107 -17.6096 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __4"
+            </Name>
+            <Hook>
+              5 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 -1.03003 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.9268 
+                    </prev>
+                    11 -17.9268 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.03003 
+                    </prev>
+                    23 -1.03003 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.9268 
+                    </prev>
+                    35 -17.9268 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.03003 
+                    </prev>
+                    45 -1.03003 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.9268 
+                    </prev>
+                    59 -17.9268 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.03003 
+                    </prev>
+                    71 -1.03003 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.9268 
+                    </prev>
+                    83 -17.9268 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.03003 
+                    </prev>
+                    95 -1.03003 
+                  </L>
+                  <L>
+                    <prev>
+                      -17.9268 
+                    </prev>
+                    107 -17.9268 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.03003 
+                    </prev>
+                    117 -1.03003 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      29.4763 
+                    </prev>
+                    11 29.4763 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      29.4763 
+                    </prev>
+                    35 29.4763 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      29.4763 
+                    </prev>
+                    59 29.4763 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      29.4763 
+                    </prev>
+                    83 29.4763 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      29.4763 
+                    </prev>
+                    107 29.4763 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __5"
+            </Name>
+            <Hook>
+              6 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      11.157 
+                    </prev>
+                    11 11.157 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      11.157 
+                    </prev>
+                    35 11.157 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      11.157 
+                    </prev>
+                    59 11.157 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      11.157 
+                    </prev>
+                    83 11.157 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      11.157 
+                    </prev>
+                    107 11.157 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      22.8267 
+                    </prev>
+                    11 22.8267 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      22.8267 
+                    </prev>
+                    35 22.8267 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      22.8267 
+                    </prev>
+                    59 22.8267 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      22.8267 
+                    </prev>
+                    83 22.8267 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      22.8267 
+                    </prev>
+                    107 22.8267 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __6"
+            </Name>
+            <Hook>
+              7 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      5.85417 
+                    </prev>
+                    11 5.85417 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      5.85417 
+                    </prev>
+                    35 5.85417 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      5.85417 
+                    </prev>
+                    59 5.85417 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      5.85417 
+                    </prev>
+                    83 5.85417 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      5.85417 
+                    </prev>
+                    107 5.85417 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -16.9487 
+                    </prev>
+                    11 -16.9487 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -16.9487 
+                    </prev>
+                    35 -16.9487 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -16.9487 
+                    </prev>
+                    59 -16.9487 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -16.9487 
+                    </prev>
+                    83 -16.9487 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -16.9487 
+                    </prev>
+                    107 -16.9487 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __7"
+            </Name>
+            <Hook>
+              8 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.0738 
+                    </prev>
+                    11 -1.0738 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.0738 
+                    </prev>
+                    35 -1.0738 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.0738 
+                    </prev>
+                    59 -1.0738 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.0738 
+                    </prev>
+                    83 -1.0738 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -1.0738 
+                    </prev>
+                    107 -1.0738 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.4026 
+                    </prev>
+                    11 -11.4026 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.4026 
+                    </prev>
+                    35 -11.4026 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.4026 
+                    </prev>
+                    59 -11.4026 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.4026 
+                    </prev>
+                    83 -11.4026 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -11.4026 
+                    </prev>
+                    107 -11.4026 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            <Name>
+              "Vertex __8"
+            </Name>
+            <Hook>
+              9 
+            </Hook>
+            <VD>
+              <Angle>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -0.951647 
+                    </prev>
+                    11 -0.951647 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -0.951647 
+                    </prev>
+                    35 -0.951647 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -0.951647 
+                    </prev>
+                    59 -0.951647 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -0.951647 
+                    </prev>
+                    83 -0.951647 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -0.951647 
+                    </prev>
+                    107 -0.951647 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Angle>
+              <Distance>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -7.43416 
+                    </prev>
+                    11 -7.43416 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -7.43416 
+                    </prev>
+                    35 -7.43416 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -7.43416 
+                    </prev>
+                    59 -7.43416 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -7.43416 
+                    </prev>
+                    83 -7.43416 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -7.43416 
+                    </prev>
+                    107 -7.43416 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </Distance>
+              <SO>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    0 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    11 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    23 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    35 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    45 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    59 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    71 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    83 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    95 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    107 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    117 0 
+                  </L>
+                  </keyframes>
+                </SO>
+              </VD>
+            </VertexDeforms>
+          <SkelIdsParam>
+            <default>
+              1 
+            </default>
+            </SkelIdsParam>
+          <Skeletons>
+            <SkelId>
+              1 
+            </SkelId>
+            <Skeleton>
+              <V>
+                9 
+                <Vertex>
+                  <name>
+                    Root 
+                  </name>
+                  <number>
+                    0 
+                  </number>
+                  <pos>
+                    -164.99 -80.4325 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __1"
+                  </name>
+                  <number>
+                    1 
+                  </number>
+                  <pos>
+                    -289.374 -26.0143 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __2"
+                  </name>
+                  <number>
+                    2 
+                  </number>
+                  <pos>
+                    -271.706 -25.7788 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __3"
+                  </name>
+                  <number>
+                    3 
+                  </number>
+                  <pos>
+                    -238.961 -27.1922 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __4"
+                  </name>
+                  <number>
+                    4 
+                  </number>
+                  <pos>
+                    -193.024 -29.7836 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __5"
+                  </name>
+                  <number>
+                    5 
+                  </number>
+                  <pos>
+                    -130.125 -27.8989 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __6"
+                  </name>
+                  <number>
+                    6 
+                  </number>
+                  <pos>
+                    -86.3075 -25.7788 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __7"
+                  </name>
+                  <number>
+                    7 
+                  </number>
+                  <pos>
+                    -46.7307 -25.5432 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                <Vertex>
+                  <name>
+                    "Vertex __8"
+                  </name>
+                  <number>
+                    8 
+                  </number>
+                  <pos>
+                    -14.9279 -25.3076 
+                  </pos>
+                  <interpolate>
+                    1 
+                  </interpolate>
+                  </Vertex>
+                </V>
+              <E>
+                8 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 
+              </E>
+              </Skeleton>
+            </Skeletons>
+          </plasticSD>
+        <nodePos>
+          24620 25450 
+        </nodePos>
+        </pegbar>
+      <pegbar id="BadPegbar">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </pegbars>
+    <fxnodes>
+      <terminal>
+        <fxnode>
+          <Toonz_columnFx id='15'/>
+        </fxnode>
+        </terminal>
+      <xsheet>
+        <Toonz_xsheetFx id='17'>
+          
+          <params>
+            </params>
+          <ports>
+            </ports>
+          <dagNodePos>
+            25120 25000 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            Xsheet 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_xsheetFx>
+        
+      </xsheet>
+      <output>
+        <Toonz_outputFx id='18'>
+          
+          <params>
+            </params>
+          <ports>
+            <source>
+              <Toonz_xsheetFx id='17'/>
+            </source>
+            </ports>
+          <dagNodePos>
+            25235 24995 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            OutputFx 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_outputFx>
+        
+      </output>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </fxnodes>
+    </xsheet>
+  <history>
+    "| #    DATE:       Time:   MACHINE:    USER:           |"
+    "| #1   21 Okt 23   17:25               uwaw            |"
+  </history>
+  </tnz>
